@@ -19,8 +19,14 @@
 
   <body>
     <header>
-      <a href="/" class="logo">
-        <img src="images/logo.svg" alt="Kruiter's logo" />
+      <a href="/">
+        <picture>
+          <source
+            srcset="images/dark-logo.svg"
+            media="(prefers-color-scheme: dark)"
+          />
+          <img src="images/logo.svg" class="logo" />
+        </picture>
       </a>
     </header>
 

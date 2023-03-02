@@ -28,3 +28,11 @@
   /* Since there isn't much text, use the best version of the font */
   text-rendering: optimizeLegibility;
 }
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.6rem;
+}

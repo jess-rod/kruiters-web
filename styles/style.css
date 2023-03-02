@@ -2,3 +2,7 @@
   background-color: var(--bg-color);
   scroll-behavior: smooth;
 }
+
+.logo {
+  height: 3.2rem;
+}
