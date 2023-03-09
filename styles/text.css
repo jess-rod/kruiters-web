@@ -21,16 +21,18 @@
 }
 
 :root {
-  color: var(--text-color);
   font-family: "Albert Sans", "Segoe UI", "Helvetica Neue", sans-serif;
   font-size: 10px;
-
-  /* Since there isn't much text, use the best version of the font */
+  line-height: 1.33;
   text-rendering: optimizeLegibility;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 10rem;
 }
 
 p {

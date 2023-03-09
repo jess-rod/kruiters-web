@@ -1,7 +1,11 @@
 :root {
+  --logo-blue: #80b3ff;
+  --logo-purple: #a559ff;
+  --logo-pink: #e580ff;
   --bg-color: #fcf5eb;
   --text-color: #1c1e21;
   --text-secondary-color: #2a2d31;
+  color: var(--text-color);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -10,4 +14,20 @@
     --text-color: #e6e6e6;
     --text-secondary-color: #dfdfdf;
   }
+}
+
+h2 {
+  background: linear-gradient(
+    85deg,
+    var(--logo-blue) 25%,
+    var(--logo-purple) 40%,
+    var(--logo-pink) 55%
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+p {
+  color: var(--text-secondary-color);
 }
